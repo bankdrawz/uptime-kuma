@@ -452,7 +452,7 @@ class StatusPage extends BeanModel {
      */
     getIcon() {
         if (!this.icon) {
-            return "/icon.svg";
+            return "/bankdrawz.png";
         } else {
             return this.icon;
         }
